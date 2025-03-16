@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Tariff Data</h1>
+    <button (click)="navigateToComparison()">Back to Comparison</button>
+    
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+    
+    <div *ngIf="tariffData" class="data-container">
+      <p class="info-text">
+        This data shows the contents of the file that contains the Json we are using for mocking the products API.
+      </p>
+      <pre>{{ tariffData | json }}</pre>
+    </div>
+  </div>

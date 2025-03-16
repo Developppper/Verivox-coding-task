@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerivoxProductApi", "VerivoxProductApi\VerivoxProductApi.csproj", "{93679F0A-01C4-4AF8-AE48-B42A2737DB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerivoxProductApi.Tests", "VerivoxProductApi.Tests\VerivoxProductApi.Tests.csproj", "{D2023639-5B4D-4B67-B674-3514E8703C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93679F0A-01C4-4AF8-AE48-B42A2737DB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93679F0A-01C4-4AF8-AE48-B42A2737DB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93679F0A-01C4-4AF8-AE48-B42A2737DB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93679F0A-01C4-4AF8-AE48-B42A2737DB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2023639-5B4D-4B67-B674-3514E8703C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2023639-5B4D-4B67-B674-3514E8703C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2023639-5B4D-4B67-B674-3514E8703C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2023639-5B4D-4B67-B674-3514E8703C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

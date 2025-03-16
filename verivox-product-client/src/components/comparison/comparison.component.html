@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Tariff Comparison</h1>
+    
+    <div class="input-group">
+      <input type="number" [(ngModel)]="consumption" placeholder="Enter consumption (kWh/year)">
+      <button (click)="compare()">Compare Tariffs</button>
+      <button (click)="navigateToJsonViewer()">View Tariff Data</button>
+    </div>
+  
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  
+    <table *ngIf="results.length > 0">
+      <thead>
+        <tr>
+          <th>Tariff Name</th>
+          <th>Annual Cost (€)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let result of results">
+          <td>{{ result.tariffName }}</td>
+          <td>{{ result.annualCost | number:'1.2-2' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

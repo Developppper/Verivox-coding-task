@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "VerivoxProductApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Tariff/compare": {
+      "get": {
+        "tags": [
+          "Tariff"
+        ],
+        "parameters": [
+          {
+            "name": "consumption",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Tariff/products": {
+      "get": {
+        "tags": [
+          "Tariff"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

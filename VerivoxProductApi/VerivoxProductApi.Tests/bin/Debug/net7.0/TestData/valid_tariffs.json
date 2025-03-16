@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Product A",
+    "Type": "Basic",
+    "BaseMonthlyCost": 5.0,
+    "CostPerKwh": 22.0
+  },
+  {
+    "Name": "Product B",
+    "Type": "Packaged",
+    "BaseCost": 800.0,
+    "IncludedKwh": 4000.0,
+    "CostPerKwh": 30.0
+  }
+]

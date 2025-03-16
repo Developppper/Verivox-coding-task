@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "VerivoxProductApi.Controllers.TariffController",
+    "Method": "Compare",
+    "RelativePath": "api/Tariff/compare",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "consumption",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VerivoxProductApi.Controllers.TariffController",
+    "Method": "GetTariffs",
+    "RelativePath": "api/Tariff/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
