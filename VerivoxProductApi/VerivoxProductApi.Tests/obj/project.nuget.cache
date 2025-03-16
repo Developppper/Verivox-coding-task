@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iy76shRFLZg=",
+  "dgSpecHash": "HSFdrYtO7Ic=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rami\\Desktop\\Verivox-coding-task\\VerivoxProductApi\\VerivoxProductApi.Tests\\VerivoxProductApi.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Rami\\Documents\\Verivox-coding-task\\VerivoxProductApi\\VerivoxProductApi.Tests\\VerivoxProductApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rami\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Rami\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
